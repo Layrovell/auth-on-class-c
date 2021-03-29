@@ -1,12 +1,12 @@
+import React from "react";
 import './App.scss';
 import './styles/reset.scss';
+import {Form} from './components/Form/Form';
 
 function App() {
-  return (
-    <div className="App">
-      <h1 style={{fontSize: 140 + "px"}}>it works</h1>
-    </div>
-  );
+    return (
+        <Form />
+    )
 }
 
 export default App;

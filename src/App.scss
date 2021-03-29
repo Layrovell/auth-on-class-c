@@ -1,0 +1,74 @@
+$boxShadow: -1px 1px 4px 0px rgba(34, 60, 80, 0.2);
+$warnColor: #f57e7e;
+$successColor: green;
+$accentColor: #c8c8c8;
+$darkColor: #000;
+
+.register-form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid $accentColor;
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid $accentColor;
+  height: 35px;
+  margin: 5px 0;
+}
+
+.input::placeholder {
+  color: #c3b8b8;
+  font-size: 12px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.input-error {
+  border: 1px solid $warnColor;
+}
+
+.error-message {
+  color: $warnColor;
+  font-size: 0.6em;
+  position: absolute;
+  right: 20px;
+}
+
+.success-message {
+  color: $successColor;
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  padding: 10px 20px;
+  background-color: $darkColor;
+  color: #fff;
+  margin: 20px 10px 10px 0;
+  box-shadow: $boxShadow;
+  font-size: 12px;
+  transition: all ease-in-out 0.4s;
+}
+
+.btn:hover {
+  background-color: lighten($darkColor, 20%);
+}
+
+.success-form {
+  text-align: center;
+  color: $successColor;
+}
+
+.error-form {
+  text-align: center;
+  color: $warnColor;
+}
