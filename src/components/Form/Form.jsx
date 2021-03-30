@@ -61,10 +61,6 @@ export class Form extends React.Component {
         const valid = isFirstNameValid && isLastNameValid && isEmailValid
             && isDateValid && isLoginValid && isPasswordValid && isRepeatPasswordValid;
 
-        console.log(this.state);
-        console.log('valid: ', valid);
-        console.log('isFormValid: ', this.state.isFormValid);
-
         if (valid) {
             this.setState({
                 formValidMessage: 'All is clearly!',
@@ -90,6 +86,31 @@ export class Form extends React.Component {
                 firstNameMessage: '',
                 isFirstNameValid: true
             })
+        }
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        if (this.state.firstName !== prevState.firstName) {
+            console.log('firstName has changed.');
+            this.firstNameHandler();
+        } else if (this.state.lastName !== prevState.lastName) {
+            console.log('lastName has changed.');
+            this.lastNameHandler();
+        } else if (this.state.email !== prevState.email) {
+            console.log('email has changed.');
+            this.emailHandler();
+        } else if (this.state.date !== prevState.date) {
+            console.log('date has changed.');
+            this.dateHandler();
+        } else if (this.state.login !== prevState.login) {
+            console.log('login has changed.');
+            this.loginHandler();
+        } else if (this.state.password !== prevState.password) {
+            console.log('password has changed.');
+            this.passwordHandler();
+        } else if (this.state.repeatPassword !== prevState.repeatPassword) {
+            console.log('repeatPassword has changed.');
+            this.repeatPasswordHandler();
         }
     }
 
