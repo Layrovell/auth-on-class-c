@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/auth-on-class-c/static/css/main.8fe8e65b.chunk.css",
+    "main.js": "/auth-on-class-c/static/js/main.eac29af2.chunk.js",
+    "main.js.map": "/auth-on-class-c/static/js/main.eac29af2.chunk.js.map",
+    "runtime-main.js": "/auth-on-class-c/static/js/runtime-main.96b39ba7.js",
+    "runtime-main.js.map": "/auth-on-class-c/static/js/runtime-main.96b39ba7.js.map",
+    "static/js/2.baaf596d.chunk.js": "/auth-on-class-c/static/js/2.baaf596d.chunk.js",
+    "static/js/2.baaf596d.chunk.js.map": "/auth-on-class-c/static/js/2.baaf596d.chunk.js.map",
+    "static/js/3.cb3053a8.chunk.js": "/auth-on-class-c/static/js/3.cb3053a8.chunk.js",
+    "static/js/3.cb3053a8.chunk.js.map": "/auth-on-class-c/static/js/3.cb3053a8.chunk.js.map",
+    "index.html": "/auth-on-class-c/index.html",
+    "static/css/main.8fe8e65b.chunk.css.map": "/auth-on-class-c/static/css/main.8fe8e65b.chunk.css.map",
+    "static/js/2.baaf596d.chunk.js.LICENSE.txt": "/auth-on-class-c/static/js/2.baaf596d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96b39ba7.js",
+    "static/js/2.baaf596d.chunk.js",
+    "static/css/main.8fe8e65b.chunk.css",
+    "static/js/main.eac29af2.chunk.js"
+  ]
+}
