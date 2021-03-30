@@ -1,6 +1,6 @@
 {
-  "homepage": "https://<name>.github.io/react_app",
-  "name": "my-app",
+  "homepage": "https://Layrovell.github.io/auth-on-class-c",
+  "name": "auth-on-class-c",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
